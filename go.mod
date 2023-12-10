@@ -1,3 +1,3 @@
-module github.com/tamboto2000/golinkedin
+module github.com/dylanratcliffe/golinkedin
 
-go 1.14
+go 1.21

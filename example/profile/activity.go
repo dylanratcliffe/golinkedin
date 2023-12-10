@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/tamboto2000/golinkedin"
+	"github.com/dylanratcliffe/golinkedin"
 )
 
 func activity(profile *golinkedin.ProfileNode) error {
