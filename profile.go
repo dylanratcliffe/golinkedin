@@ -2,6 +2,7 @@ package golinkedin
 
 import (
 	"encoding/json"
+	"fmt"
 	"net/url"
 	"strings"
 )
@@ -144,6 +145,7 @@ func (ln *Linkedin) ProfileByUsername(username string) (*ProfileNode, error) {
 
 	profile := new(ProfileNode)
 	if err := json.Unmarshal(raw, profile); err != nil {
+		fmt.Println(string(raw))
 		return nil, err
 	}
 
